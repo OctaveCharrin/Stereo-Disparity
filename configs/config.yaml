@@ -1,5 +1,15 @@
 epochs: 10
 lr: 1e-5
-batch_size: 10
+batch_size: 5
 
 root: ${hydra:runtime.cwd}
+train_stereo_path: dataset/kitti2012_train_stereo.txt
+train_gtdisp_path: dataset/kitti2012_train_gtdisp.txt
+test_stereo_path: dataset/kitti2012_test_stereo.txt
+test_gtdisp_path: dataset/kitti2012_test_gtdisp.txt
+size: (512,256)
+
+resume: True
+resume_checkpoint: checkpoints/net_state_dict_LR_only_12_final.pth
+
+checpoint: True

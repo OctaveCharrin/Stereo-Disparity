@@ -1,4 +1,4 @@
-./Kitti2012
-./outputs
-outputs
 Kitti2012
+**/__pycache__
+*/__pycache__
+checkpoints
